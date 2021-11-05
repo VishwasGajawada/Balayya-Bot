@@ -3,6 +3,10 @@ salutation<::>^\!balayya<::>1
 salutation<::>^balayya\w+<::>1
 salutation<::>balayya<::>1
 salutation<::>balayya.g(a|aa)ru<::>1
+salutation<::>balaya<::>1
+salutation<::>Unstoppable<::>1
+salutation<::>Sr.NTR<::>1
+salutation<::>nannagaru<::>1
 drinking<::>vodka<::>2
 drinking<::>whisky<::>2
 drinking<::>rum<::>2
