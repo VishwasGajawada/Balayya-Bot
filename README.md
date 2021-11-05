@@ -2,10 +2,14 @@
 Reddit comment bot emulating Telugu actor N. Bala Krishna.
 
 ## Project structure
- - `/utils` contains utilities for comments-parsing, logging, stats, etc.
- - `/resources` contains comments and replies for each distinct action. Examples below.
-   - `/resources/trigger_words.txt` contains replies for trigger words found in user comments.
-   - `/resources/funny.txt` contains funny replies.
+ - `config.py` contains Bot's higher level configuration.
+ - `generate_queue.py` decides which action to take after parsing the comment and adds it to the queue.
+ - `main.py` executes the pending actions in queue. 
+ - `utils.py` contains utilities for comment-scraping, comments-parsing, logging, stats, etc.
+ - `/resources` contains comments and replies databases for each distinct action. Examples below.
+   - `/resources/triggers.csv` contains replies for trigger words found in user comments.
+   - `/resources/drinking.txt` contains replies if there is a trigger word for drinking.
+   - `/resources/salutation.txt` contains replies if there is a trigger word for salutation.
 
 ## Contribution Guidelines
  - There will only ever be a single branch to make the project simpler.

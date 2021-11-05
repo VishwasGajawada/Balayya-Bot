@@ -1,0 +1,15 @@
+trigger_types<::>re_triggers<::>priorities
+salutation<::>^\!balayya<::>1
+salutation<::>^balayya\w+<::>1
+salutation<::>balayya<::>1
+salutation<::>balayya.g(a|aa)ru<::>1
+drinking<::>vodka<::>2
+drinking<::>whisky<::>2
+drinking<::>rum<::>2
+drinking<::>gin<::>2
+drinking<::>martini<::>2
+drinking<::>bee(r|rs|rlu)<::>2
+drinking<::>th(a|aa)g(adam|udham|i|unnam|eddham|uthunnam)<::>2
+mansion<::>mansion.house<::>2
+singing<::>s(i|o)ng<::>3
+singing<::>p(a|aa)ta.+p(a|aa)d(u|andi|ithe|adam)<::>3
